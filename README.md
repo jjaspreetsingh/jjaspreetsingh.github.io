@@ -1,4 +1,4 @@
-# Jaspreet Singh - Portfolio Website
+# Jaspreet Singh - Portfolio
 
 A minimalist portfolio website showcasing INTP analytical skills and technical projects.
 
