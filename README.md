@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing INTP analytical skills, technical projects, and professional experience. Built with vanilla HTML, CSS, and JavaScript.
 
-🌐 **Live Site**: [https://jjaspreetsingh.github.io](https://jjaspreetsingh.github.io)
+🌐 **Live Site**: [https://jjaspreetsingh.com](https://jjaspreetsingh.github.io)
 
 ## ✨ Features
 
