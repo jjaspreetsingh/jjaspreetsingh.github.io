@@ -77,38 +77,12 @@ nav {
 .nav-brand {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    cursor: pointer;
-    transition: transform 0.2s ease;
 }
 
-.nav-brand:hover {
-    transform: scale(1.05);
-}
-
-.logo {
-    width: 45px;
-    height: 45px;
-    background: linear-gradient(135deg, var(--primary-color), #991b1b);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-brand .name {
+    font-size: 1.5rem;
     font-weight: bold;
-    font-size: 1.1rem;
-    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.logo:hover {
-    transform: rotate(360deg);
-    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.5);
-}
-
-.name {
-    font-weight: 600;
-    font-size: 1.1rem;
+    color: var(--text-color);
 }
 
 .nav-links {
