@@ -1,8 +1,8 @@
-# Jaspreet Singh - Portfolio Website
+# Jaspreet Singh // portfolio website
 
-A modern, responsive portfolio website showcasing INTP analytical skills, technical projects, and professional experience. Built with vanilla HTML, CSS, and JavaScript.
+A modern, responsive portfolio website showcasing my analytical skills, technical projects, and professional experience. Built with vanilla HTML, CSS, and JavaScript.
 
-🌐 **Live Site**: [https://jjaspreetsingh.com](https://jjaspreetsingh.github.io)
+🌐 **Live Site**: [https://jjaspreetsingh.com](https://jjaspreetsingh.com)
 
 ## ✨ Features
 
@@ -36,73 +36,13 @@ A modern, responsive portfolio website showcasing INTP analytical skills, techni
 └── SECURITY.md         # Security policy
 ```
 
-## 🚀 Getting Started
-
-### Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/jjaspreetsingh/jjaspreetsingh.github.io.git
-   cd jjaspreetsingh.github.io
-   ```
-
-2. **Run a local server**
-   
-   **Option 1: Python**
-   ```bash
-   python3 -m http.server 8000
-   ```
-   
-   **Option 2: Node.js**
-   ```bash
-   npx http-server -p 8000
-   ```
-   
-   **Option 3: VS Code Live Server**
-   - Install "Live Server" extension
-   - Right-click `index.html` → "Open with Live Server"
-
-3. **Open in browser**
-   ```
-   http://localhost:8000
-   ```
-
-### Deployment
+## Deployment
 
 This site is automatically deployed via GitHub Pages:
 
-1. Push changes to the `main` branch
+1. I can push changes to the `main` branch
 2. GitHub Pages automatically builds and deploys
-3. Changes are live within 1-2 minutes at `https://jjaspreetsingh.github.io`
-
-## 🎨 Customization
-
-### Colors & Theme
-
-Edit CSS variables in `styles.css`:
-
-```css
-:root {
-    --primary-color: #3b82f6;
-    --secondary-color: #64748b;
-    --background-color: #ffffff;
-    --text-color: #1e293b;
-    /* ... */
-}
-```
-
-### Content
-
-- **Home**: Edit `index.html`
-- **About**: Edit `about.html`
-- **Projects**: Edit `projects.html`
-- **Contact**: Edit `contact.html`
-
-### Social Links
-
-Update links in:
-- `index.html` (hero section)
-- `contact.html` (contact section)
+3. any changes are live within 1-2 minutes at `https://jjaspreetsingh.com`
 
 ## 📱 Features Breakdown
 
@@ -126,13 +66,6 @@ Update links in:
 - Mobile-optimized layouts
 - Touch-friendly buttons
 
-## 🔧 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -150,7 +83,7 @@ Jaspreet Singh
 
 ## 🙏 Acknowledgments
 
-- Design inspired by modern minimalist portfolios
+- Design inspired by modern minimalist portfolios and personal preference of design
 - Icons and emojis for visual enhancement
 - GitHub Pages for free hosting
 
