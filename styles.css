@@ -95,22 +95,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
     position: relative;
-}
-
-.nav-brand {
-    display: flex;
-    align-items: center;
-}
-
-.nav-brand .name {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--text-color);
-    text-transform: none;
 }
 
 .nav-links {
