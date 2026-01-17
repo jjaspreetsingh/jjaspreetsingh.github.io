@@ -87,10 +87,11 @@ h1, h2, h3, h4, h5, h6 {
 header {
     position: sticky;
     top: 0;
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(10, 10, 10, 0.95);
     z-index: 1000;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 nav {
@@ -104,8 +105,7 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 3rem;
-    justify-content: center;
+    gap: 2.5rem;
 }
 
 .nav-link {
@@ -663,6 +663,11 @@ footer p {
 @media (max-width: 768px) {
     nav {
         padding: 1rem;
+        justify-content: center;
+    }
+
+    .nav-links {
+        gap: 2rem;
     }
 
     .hero-title {
