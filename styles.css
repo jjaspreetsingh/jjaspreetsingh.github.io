@@ -97,14 +97,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     position: relative;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .nav-link {
