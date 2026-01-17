@@ -1,5 +1,44 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+    // Set initial theme
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (themeToggle) {
+            updateToggleButton(theme);
+        }
+    }
+
+    // Update toggle button icon
+    function updateToggleButton(theme) {
+        if (themeToggle) {
+            themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+            themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+    }
+
+    // Initialize theme
+    function initTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const currentTheme = savedTheme || (prefersDarkScheme.matches ? 'dark' : 'light');
+        setTheme(currentTheme);
+    }
+
+    // Toggle theme
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        });
+    }
+
+    // Initialize theme
+    initTheme();
 
     // Scroll to top button
     const scrollTopBtn = document.getElementById('scroll-top');
