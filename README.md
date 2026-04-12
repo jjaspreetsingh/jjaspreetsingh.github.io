@@ -1,94 +1,65 @@
-# Jaspreet — Cybersecurity Portfolio
+# 0xjaspreet — Cybersecurity Portfolio
 
-Single-page portfolio website for cybersecurity professional Jaspreet. Built with vanilla HTML, CSS, and JavaScript. Deployed via GitHub Pages.
+A high-performance, single-page portfolio for **Jaspreet Singh**, an offensive security practitioner. Built with a minimalist "Terminal Green" aesthetic using vanilla HTML, CSS, and JavaScript.
 
 🌐 **Live Site**: [https://jaspreetsec.com](https://jaspreetsec.com)
 
-## About This Site
+## ⚡ The Aesthetic
 
-This is a **static single-page portfolio** with anchor-based navigation. It does NOT have:
-- Multiple HTML pages (everything is in `index.html`)
-- Theme toggle (dark theme only)
-- Hamburger menu (simple horizontal nav)
+The site utilizes a **Hacker Terminal** theme:
+- **Primary Color**: `#00ff41` (Matrix/Terminal Green)
+- **Background**: `#0a0a0a` (Deep Black)
+- **Typography**: Monospace stack for a technical, code-editor feel
+- **Interactions**: Functional terminal typing effects and chromatic aberration (glitch) on hover
 
-All content is in one place: skills, projects, bio, and contact section.
+## ✨ Key Features
 
-## ✨ What's Actually Here
-
-- 🎯 **Single-page layout** with smooth anchor scrolling
-- 🎨 **Dark theme only** — orange/amber gradient accents on near-black background
-- ⬆️ **Scroll-to-top button** that appears after scrolling
-- ✨ **Scroll-triggered animations** using IntersectionObserver
-- 🖥️ **Terminal aesthetic** in the About section (command-line prompts)
-- ♿ **Basic accessibility** — semantic HTML, ARIA labels where needed
-- ⚡ **No dependencies** — pure vanilla code, fast load
+- 🎯 **Single-Page Architecture**: High-speed, anchor-based navigation.
+- 📟 **Terminal UI**: Integrated typing animations and command-line prompts (`>`) in the header.
+- 🤖 **Agentic AI Focus**: Showcases development of voice-controlled security assistants (Fakir).
+- 🏗️ **Infrastructure-Centric**: Highlights distributed VPS management (Cortex, Sanctum, Goliath).
+- ⚡ **Zero Dependencies**: No frameworks. Pure vanilla code for a minimal attack surface and instant load times.
+- ♿ **Accessibility**: Semantic HTML and ARIA-compliant structure.
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — Semantic markup
-- **CSS3** — CSS Variables, Flexbox, Grid, keyframe animations
-- **JavaScript (ES6+)** — Vanilla JS, IntersectionObserver API
-- **GitHub Pages** — Automatic deployments on push to main
+- **HTML5**: Semantic markup for SEO and screen readers.
+- **CSS3**: Custom properties (Variables), Flexbox, and Keyframe animations.
+- **JavaScript (ES6+)**: Custom typing engine and IntersectionObserver for scroll-triggered events.
+- **GitHub Pages**: Automated CI/CD deployment.
 
 ## 📁 File Structure
-
-```
 .
-├── index.html          # Entire site (single page)
-├── styles.css          # All styles
-├── script.js           # JavaScript functionality
-├── favicon.jpg         # Site favicon
-├── CNAME              # Custom domain config
-├── README.md          # This file
-└── SECURITY.md        # Security policy
-```
+├── index.html         # Main structure & content
+├── styles.css         # Terminal Green styling
+├── script.js          # Typing effects & smooth scrolling
+├── favicon.jpg        # Custom 0x security icon
+├── CNAME              # jaspreetsec.com domain config
+└── README.md          # This file
 
-Note: There are NO separate `about.html`, `projects.html`, or `contact.html` files. Those were redirect stubs and have been deleted.
+## 🚀 Deployment & Workflow
 
-## 🚀 Deployment
-
-GitHub Pages automatic deployment:
-
-1. Push to `main` branch
-2. GitHub Actions builds and deploys
-3. Site live at `https://jaspreetsec.com` within 1-2 minutes
-
-The workflow (`.github/workflows/static.yml`) uploads only necessary files: `index.html`, `styles.css`, `script.js`, `favicon.jpg`, `CNAME`.
-
-## 📄 SEO & Metadata
-
-The site includes:
-- Meta description for search engines
-- Open Graph tags for social sharing (Twitter/X, LinkedIn)
-- Canonical URL tag
-- Proper page title
+This project uses **GitHub Actions** for automatic deployment:
+1. **Push** to the `main` branch.
+2. **Build**: GitHub Actions validates the static assets.
+3. **Deploy**: The site is pushed live to `https://jaspreetsec.com` via GitHub Pages.
 
 ## 🎯 Content Sections
 
-1. **Hero** — Name, title, brief intro, social links
-2. **Skills** — Technology badges (Kali, Burp, Metasploit, Python, etc.)
-3. **Projects** — Three honest entries:
-   - TryHackMe Progress (link to THM profile)
-   - Self-Hosted Lab Infrastructure (Docker, Tailscale, etc.)
-   - Home Lab C2 Setup (Sliver, WireGuard, Uptime Kuma)
-4. **About** — Personal story with terminal prompt UI
-5. **Contact** — GitHub, LinkedIn, X, TryHackMe links
+1. **Header**: Name and title with a terminal typing animation.
+2. **About**: Career pivot narrative and involvement with the **DC204** security community.
+3. **Technical Proficiency**: Categorized skill sets (Pentesting, Infrastructure, Agentic AI).
+4. **Technical Projects**: 
+   - **Multi-Node VPS**: Management of Cortex, Sanctum, and Goliath nodes.
+   - **Fakir**: Voice-controlled agent built with Deepgram and Groq.
+   - **Offensive Labs**: TryHackMe (0xjaspreet) and local CTF practice.
+5. **Roadmap**: Professional certification path (Security+, eJPT, PNPT, OSCP).
+6. **Connect**: Centralized links for GitHub, LinkedIn, X, and TryHackMe.
 
 ## 🔒 Security
 
-See [SECURITY.md](SECURITY.md) for vulnerability reporting. This site is static and has no backend, so attack surface is minimal.
-
-## 📝 License
-
-This portfolio is personal and not open source. All code is provided as-is for educational purposes. Do not copy without permission.
-
-## 🙏 Credits
-
-- Design: Custom dark theme with orange/amber palette
-- Icons: SVG paths in HTML (GitHub, LinkedIn, X, TryHackMe)
-- Fonts: System fonts with Inter-like stack
-- Hosting: GitHub Pages
+This is a static site with no backend, minimizing the attack surface. For vulnerability reporting or security-related inquiries, please contact `hello@jaspreetsec.com`.
 
 ---
 
-Built with care by Jaspreet. No frameworks, no nonsense.
+**Built with a systems-thinking mindset by Jaspreet Singh (0xjaspreet).**
